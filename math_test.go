@@ -6,7 +6,7 @@ func TestSoma(t *testing.T) {
 	firstArgument := 15
 	secondArgument := 15
 
-	total := Soma(firstArgument, secondArgument)
+	total := soma(firstArgument, secondArgument)
 	expectedValue := firstArgument + secondArgument
 
 	if total != expectedValue {
